@@ -1,0 +1,66 @@
+.flex-all-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ecom-logo{
+    height: 48px;
+    width: 48px;
+}
+
+.search-div{
+    display: flex;
+}
+
+.search{
+    display: flex;
+    height: 40px;
+    width: 20vw;
+    margin-left: calc(37.5vw - 58px);
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border: 0 solid;
+    padding: 10px;
+    font-size: 18px;
+    font-family: 'DejaVu Sans';
+}
+
+.do-search{
+    font-family: 'DejaVu Sans';
+    display: flex;
+    height: 40px;
+    min-width: 5vw;
+    margin-right: calc(36vw - 116px);
+    align-items: center;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 0 solid;
+    padding: 10px;
+    text-align: center;
+    color: #6a28c2;
+    background-image: linear-gradient(315deg, #fce043 0%, #fb7ba2 74%);
+}
+
+.do-search:hover{
+    font-weight: bold;
+    font-size: 12px;
+    cursor: pointer;
+    color: #6a28c2;
+    background-image: linear-gradient(315deg, #ffcfdf 0%, #b0f3f1 74%);}
+
+.cart{
+    height: 48px;
+    width: 48px;
+    margin-right: 5px;
+}
+
+.user{
+    height: 48px;
+    width: 48px;
+}
+
+.ecom-logo, .cart, .user:hover {
+    cursor: pointer;
+}
