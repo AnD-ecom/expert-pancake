@@ -1,47 +1,83 @@
-@import url('https://web-fonts.ge/dejavu-sans/');
-@import url('https://fonts.googleapis.com/css2?family=Fira+Mono&display=swap');
-@import url('https://madmalik.github.io/mononoki/');
-
-:root {
-    --main-bg-color: #7ee8fa;
-    --main-background-image: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root{
+    --main-bg-color: #570914f2;
 }
-
 *{
     padding: 0;
     margin: 0;
 }
-
 header{
     background-color: var(--main-bg-color);
-    background-image: var(--main-background-image);
+    color: white;
+    font-family: 'Ubuntu', sans-serif; 
 }
-
 nav{
-    height: 60px;
     display: flex;
-    justify-content: center;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+nav ul li a:hover{
+     font-weight: bolder;
+}
+nav ul li{
+    list-style: none;
+    padding: 0px 23px;
+}
+nav ul{
+    height: 55px;
+    display: flex;
+    justify-content: flex-start;
     align-items: center;
 }
-
-nav div{
-    padding: 0 5px;
-}
-
-
 .logo{
     display: flex;
     align-items: center;
+    
 }
-
+.logo img{
+    width: 95px;
+    padding: 0px 23px;
+}
 .container{
-    min-height: calc(100vh - 60px - 12vh);
+    min-height: calc(100vh - 50px - 12vh);
+}
+.search{
+    display: flex;
+    align-items:center;
+    padding: 0px 23px;
+
+    
+}
+.search-box{
+    width: 450px;
+    height: 28px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    margin: 0px 0px 0px 10px;
+}
+.btn{
+    position: relative;
+    top: 1px;
+    height:28px;
+    width: 80px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+
 }
 
 footer{
-    color: #000000;
-    background-color: var(--main-bg-color);
-    background-image: var(--main-background-image);
     height: 12vh;
-    font-family: 'DejaVu Sans', monospace;
+    background-color:var(--main-bg-color);
+    color: blanchedalmond;
+    font-family: 'Ubuntu', sans-serif; 
+}
+
+.slider{
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top: 15px;
 }
